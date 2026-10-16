@@ -17,6 +17,17 @@ India first: a provisional application there costs **Rs 1,600** for an individua
 | 5. File | `/patent-kit:file` | Exact values for every portal field, the upload types, signing and payment, including what to do when the payment page fails |
 | 6. Track | `/patent-kit:track` | Application number and filing date recorded, every deadline computed, and what you may now publish |
 
+### What the output looks like
+
+Real pages from a test run on a toy idea (a desk mat with magnetic status sliders), with the applicant shown as a sample:
+
+<table>
+<tr>
+<td align="center" width="50%"><img src="docs/images/form2-page1.png" alt="Page 1 of a provisional specification (Form 2) produced by patent-kit" width="360"><br><sub>Form 2, provisional specification (page 1 of 7)</sub></td>
+<td align="center" width="50%"><img src="docs/images/drawing-sheet.png" alt="A rule 15 drawing sheet produced by patent-kit, showing a numbered cross-section" width="360"><br><sub>Drawing sheet: a cross-section with numbered parts (sheet 2 of 5)</sub></td>
+</tr>
+</table>
+
 New to patents? Read the [glossary](GLOSSARY.md) (who is involved and the terms you will meet) and the [websites you will use](jurisdictions/india/websites.md). The [journey](JOURNEY.md) shows every phase with its time and cost; you can pause after any phase and resume later with `/patent-kit:start`.
 
 See [`examples/sync-window/`](examples/sync-window/) for a fictional invention taken through every step, with the resulting PDFs.
