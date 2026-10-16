@@ -1,0 +1,31 @@
+{
+  "applicant": "ASHA EXAMPLE",
+  "figures": [
+    {"elements": [
+      {"type": "box", "x": 42, "y": 56, "w": 136, "h": 150, "dashed": true},
+      {"type": "text", "x": 45, "y": 62, "text": "100 Mobile device", "anchor": "start", "bold": true},
+      {"type": "box", "x": 46, "y": 68, "w": 60, "h": 14, "lines": ["120 Applications"]},
+      {"type": "box", "x": 46, "y": 92, "w": 60, "h": 12, "lines": ["122 Interface"]},
+      {"type": "line", "points": [[76, 82], [76, 92]]},
+      {"type": "box", "x": 50, "y": 114, "w": 124, "h": 70, "dashed": true},
+      {"type": "text", "x": 171, "y": 120, "text": "110 Scheduler service", "anchor": "end", "bold": true},
+      {"type": "box", "x": 54, "y": 126, "w": 52, "h": 12, "lines": ["112 Registry"]},
+      {"type": "box", "x": 118, "y": 126, "w": 52, "h": 12, "lines": ["114 Radio monitor"]},
+      {"type": "box", "x": 54, "y": 160, "w": 52, "h": 12, "lines": ["116 Window planner"]},
+      {"type": "box", "x": 118, "y": 160, "w": 52, "h": 12, "lines": ["118 Dispatcher"]},
+      {"type": "line", "points": [[76, 104], [76, 126]]},
+      {"type": "line", "points": [[80, 138], [80, 160]]},
+      {"type": "line", "points": [[144, 138], [144, 150], [92, 150], [92, 160]]},
+      {"type": "line", "points": [[106, 166], [118, 166]]},
+      {"type": "box", "x": 118, "y": 190, "w": 52, "h": 12, "lines": ["130 Radio"]},
+      {"type": "line", "points": [[144, 172], [144, 190]]},
+      {"type": "line", "points": [[170, 196], [174, 196], [174, 132], [170, 132]], "dashed": true}
+    ]},
+    {"elements": [
+      {"type": "flow", "x": 62, "y": 58, "w": 96, "h": 12, "gap": 9,
+       "steps": ["202 Radio becomes active", "204 Estimate window", "206 Sort by deadline", "208 Select what fits", "210 Start selected syncs", "212 Update registry"]},
+      {"type": "box", "x": 62, "y": 192, "w": 96, "h": 16, "lines": ["214 Deadline reached,", "radio idle: start and open window"], "dashed": true, "r": 1},
+      {"type": "line", "points": [[110, 192], [110, 185], [50, 185], [50, 64], [62, 64]], "dashed": true}
+    ]}
+  ]
+}

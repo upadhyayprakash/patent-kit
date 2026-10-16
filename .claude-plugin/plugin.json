@@ -1,0 +1,8 @@
+{
+  "name": "patent-kit",
+  "version": "0.1.0",
+  "description": "File a provisional patent for your own invention, yourself: private workspace, interview, approval-gated prior-art search, Form 2 and drawings as compliant PDFs, a field-by-field portal walkthrough and deadline tracking. India first.",
+  "author": { "name": "Prakash Upadhyay" },
+  "license": "MIT",
+  "keywords": ["patent", "provisional", "india", "inventor", "ip", "form-2", "drawings"]
+}

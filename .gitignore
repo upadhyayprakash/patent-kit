@@ -1,0 +1,6 @@
+# Never commit a real patent workspace into this repo.
+.patent-kit
+patents/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "name": "patent-kit",
+  "owner": {
+    "name": "Prakash Upadhyay"
+  },
+  "metadata": {
+    "description": "patent-kit: file a provisional patent for your own invention, yourself. India first.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "patent-kit",
+      "source": "./",
+      "description": "File a provisional patent for your own invention, yourself. India first."
+    }
+  ]
+}
